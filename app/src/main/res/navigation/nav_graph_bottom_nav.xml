@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_bottom_nav"
+    app:startDestination="@id/bottomNavFragment">
+
+    <fragment
+        android:id="@+id/bottomNavFragment"
+        android:name="com.tanveershafeeprottoy.navigationarchcomponent.BottomNavFragment"
+        android:label="fragment_bottom_nav"
+        tools:layout="@layout/fragment_bottom_nav" />
+
+    <fragment
+        android:id="@+id/bottomNavFirstFragment"
+        android:name="com.tanveershafeeprottoy.navigationarchcomponent.BottomNavFirstFragment"
+        android:label="fragment_bottom_nav_first"
+        tools:layout="@layout/fragment_bottom_nav_first" />
+    <fragment
+        android:id="@+id/bottomNavThirdFragment"
+        android:name="com.tanveershafeeprottoy.navigationarchcomponent.BottomNavThirdFragment"
+        android:label="fragment_bottom_nav_third"
+        tools:layout="@layout/fragment_bottom_nav_third" />
+</navigation>
